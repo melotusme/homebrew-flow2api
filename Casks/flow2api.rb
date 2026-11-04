@@ -1,8 +1,8 @@
 require_relative "../lib/private_release_download_strategy"
 
 cask "flow2api" do
-  version "0.2.3"
-  sha256 "a57c0434826cabef187510b7696b19d52bd7cad387eb265b7052c924929217ee"
+  version "0.3.1"
+  sha256 "12fa75a05f3f6a27cb78bcd135e34780d02644867f4d4de0c62de8e494a01dfb"
 
   url "https://github.com/melotusme/flow2api-releases/releases/download/v#{version}/Flow2API.app.tar.gz",
       using: Flow2apiPrivateDownloadStrategy
@@ -12,6 +12,8 @@ cask "flow2api" do
 
   depends_on macos: :monterey
   depends_on formula: "gh"
+
+  auto_updates true
 
   app "Flow2API.app"
 

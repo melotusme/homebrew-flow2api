@@ -46,6 +46,8 @@ cask "flow2api" do
   depends_on macos: :monterey
   depends_on formula: "gh"
 
+  auto_updates true
+
   app "Flow2API.app"
 
   caveats do
