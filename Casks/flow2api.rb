@@ -1,8 +1,8 @@
 require_relative "../lib/private_release_download_strategy"
 
 cask "flow2api" do
-  version "0.2.0"
-  sha256 "444f1323f2648926e11d90d3b4c80ff31d4b8a4a0a4a20598fb4811e3a5e9966"
+  version "0.2.1"
+  sha256 "c3e796622064e260c3c31254ff5d095968d58a46d4aa780932c6f2973fc01989"
 
   url "https://github.com/melotusme/flow2api-releases/releases/download/v#{version}/Flow2API.app.tar.gz",
       using: Flow2apiPrivateDownloadStrategy
