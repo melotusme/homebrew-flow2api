@@ -1,6 +1,6 @@
 cask "flow2api" do
   version "0.3.10"
-  sha256 "39cb11df7a49e21111ba9e7decd032be97b3a62f33b0ddd03bdce807be17dd37"
+  sha256 "1c837e7e0be895aa4506b09d9b57f50621061aaec3139685da2b2e4467ed91f4"
 
   url "https://github.com/melotusme/flow2api-releases/releases/download/v#{version}/Flow2API.app.tar.gz"
   name "Flow2API"
